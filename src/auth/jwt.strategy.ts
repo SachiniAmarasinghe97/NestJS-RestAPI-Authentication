@@ -19,4 +19,9 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   }
 }
 
+
+
+
+
+
 //jwtStrategy is responsible for getting our token from the header of the request and checking if it’s valid. If it’s, then it’ll get the userId from the payload 
